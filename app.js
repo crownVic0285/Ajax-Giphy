@@ -31,3 +31,7 @@ $("form").on("submit", async function(evt) {
   });
   addGif(response.data);
 });
+
+$("#remove").on("click", function() {
+    $gifArea.empty();
+});
